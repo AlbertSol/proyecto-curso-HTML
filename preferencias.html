@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="leon.ico" type="image/x-icon">
+
+    <title>Juan Code</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 1px 5px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 1px 5px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ingenieria en Sistemas Computacionales</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="margin: 15px;"> 10 posibles puestos de trabajo para un ingeniero en sistemas computacionales</h2>
+    <hr>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(224, 223, 222);">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th>No.</th>
+            <th>Puesto de Trabajo</th>
+            <th>Descripción</th>
+            <th>Habilidades Clave</th>
+            <th>Enfoque Principal</th>
+            <tr>
+                <td>1</td>
+                <td>Desarrollador de software</td>
+                <td>Codificación y desarrollo de aplicaciones y sistemas.</td>
+                <td>Programación, Resolución de Problemas</td>
+                <td>Desarrollador de software</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ingeniero de Redes</td>
+                <td>Diseño, implementación y mantenimiento de redes de computadoras.</td>
+                <td>Networking, Seguridad de Redes</td>
+                <td>Infraestructura de Rede</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Administrador de Bases de Datos</td>
+                <td>Gestión y mantenimiento de bases de datos para garantizar su eficiencia.</td>
+                <td>SQL, Administración de Bases de Datos</td>
+                <td>SQL, Administración de Bases de Datos</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Arquitecto de Software</td>
+                <td>Diseño y planificación de la arquitectura de software para proyectos.</td>
+                <td>Diseño de Sistemas, Patrones de Arquitectura</td>
+                <td>Planificación de Arquitectura de software</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Analista de Seguridad Informática</td>
+                <td>Evaluación y mejora de la seguridad de sistemas informáticos.</td>
+                <td>Seguridad de la Información, Análisis de Riesgos</td>
+                <td>Seguridad de la Información</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Ingeniero en Sistemas</td>
+                <td>Integración y gestión de sistemas informáticos.</td>
+                <td>Sistemas Operativos, Integración de Sistemas</td>
+                <td>Gestión de Sistemas informáticos</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Consultor de Tecnología</td>
+                <td>Asesoramiento sobre soluciones tecnológicas para empresas.</td>
+                <td>Consultoría, Conocimiento Empresarial</td>
+                <td>Asesoramiento Tecnológico para Empresas</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Especialista en Inteligencia Artificial</td>
+                <td>Desarrollo y aplicación de técnicas de inteligencia artificial.</td>
+                <td>Machine Learning, Procesamiento de Lenguaje Natural</td>
+                <td>Desarrollo de soluciones de IA</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Ingeniero de Pruebas (Tester)</td>
+                <td>Evaluación y verificación de la calidad de software.</td>
+                <td>Pruebas de Software, Automatización de Pruebas</td>
+                <td>Garantía de Calidad de Software</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Científico de Datos</td>
+                <td>Análisis y modelado de datos para obtener información valiosa.</td>
+                <td>Minería de Datos, Estadísticas</td>
+                <td>Análisis y Extracción de Valor de los Datos</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>

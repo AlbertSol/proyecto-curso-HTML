@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="leon.ico" type="image/x-icon">
+    <title>Juan Code</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ingenieria en Sistemas Computacionales</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="centrado" style="margin: 15px;">Audiovisuales de los Estudiantes de Tec Vallarta.</h2>
+    <br>
+    <div class="centrado">
+        <img src="assets/img/sisti.png" alt="">
+    </div>
+
+    <h3 class="centrado">Presentación Ing. en Sistemas Computacionales</h3>
+    <div class="centrado">
+        <video width="500px" src="assets/videos/Ing. Sistemas.mp4" controls></video>
+    </div>
+    <p class="centrado">Este Video es una Presentación del Tecnológico de Vallarta para los de nuevo ingresó</p>
+    <hr>
+    <h3 class="centrado">Galería: Visitas</h3>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/visitaRedi.jpg" target="_blank"><img src="assets/img/visitaRedi.jpg"
+                    alt="Presentación"></a>
+            <div class="centrado">Presentación de uso de IA</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/visita.jpg" target="_blank"><img src="assets/img/visita.jpg"
+                    alt="Alumnos y Maestras"></a>
+            <div class="centrado">Alumnos de 8 Semestre</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/visita2.jpg" target="_blank"><img src="assets/img/visita2.jpg" alt="Visita a Redi"></a>
+            <div class="centrado">Visita a REDI</div>
+        </div>
+    </section>
+    <hr>
+    <h3 class="centrado">Presentación de Proyectos</h3>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/exposicion.jpg" target="_blank"><img src="assets/img/exposicion.jpg"
+                    alt="Visitas de Preparatorias"></a>
+            <div class="centrado">Visita de COBAEJ al TEC</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/presentacio-carrito.jpg" target="_blank"><img src="assets/img/presentacio-carrito.jpg"
+                    alt="Presentación Carrito"></a>
+            <div class="centrado">Presentación del carrito autónomo</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/app.jpg" target="_blank"><img src="assets/img/app.jpg" alt="Presentacion App"></a>
+            <div class="centrado">Proyectos de Software</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/sistemasexpo.jpg" target="_blank"><img src="assets/img/sistemasexpo.jpg"
+                    alt="exposiciones de proyectos"></a>
+            <div class="centrado">exposiciones de proyectos</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/pitillal.jpg" target="_blank"><img src="assets/img/pitillal.jpg"
+                    alt="exposicion en el pitillal"></a>
+            <div class="centrado">exposición en el Pitillal</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/explicacion.jpeg" target="_blank"><img src="assets/img/explicacion.jpeg"
+                    alt="Explicacion de flutter"></a>
+            <div class="centrado">Presentación del Código en flutter </div>
+        </div>
+    </section>
+    <hr>
+    <h3 class="centrado">Semana de SISTI</h3>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/sisti8.jpeg" target="_blank"><img src="assets/img/sisti8.jpeg" alt="sisti8"></a>
+            <div class="centrado">SISTI8</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/sisti7.jpeg" target="_blank"><img src="assets/img/sisti7.jpeg" alt="sisti7"></a>
+            <div class="centrado">SISTI7</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/sisti6.jpeg" target="_blank"><img src="assets/img/sisti6.jpeg" alt="sisti6"></a>
+            <div class="centrado">SISTI6</div>
+    </section>
+    <hr>
+    <h3 class="centrado">Talleres en la Semana de SISTI</h3>
+    <section class="centrado">
+        </div>
+        <div class="gallery">
+            <a href="assets/img/IoT.jpeg" target="_blank"><img src="assets/img/IoT.jpeg" alt="Taller de IoT"></a>
+            <div class="centrado">Taller de IoT</div>
+        </div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/mantenimineto.jpeg" target="_blank"><img src="assets/img/mantenimineto.jpeg"
+                    alt="mantenimineto"></a>
+            <div class="centrado">mantenimineto preventivo equipos de Laptop</div>
+        </div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/taller_UX.jpeg" target="_blank"><img src="assets/img/taller_UX.jpeg"
+                    alt="Taller de IU/UX"></a>
+            <div class="centrado">Taller de IU/UX</div>
+        </div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/taller_UX1.jpeg" target="_blank"><img src="assets/img/taller_UX1.jpeg"
+                    alt="Taller de UX"></a>
+            <div class="centrado">Taller de IU/UX</div>
+        </div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/tallerGit.jpeg" target="_blank"><img src="assets/img/tallerGit.jpeg"
+                    alt="taller de git"></a>
+            <div class="centrado">Taller de GIT & GITHUB</div>
+        </div>
+    </section>
+    <hr>
+    <h3 class="centrado">Concursos y Ferias</h3>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/coloquio1.jpg" target="_blank"><img src="assets/img/coloquio1.jpg" alt="Coloquios"></a>
+            <div class="centrado">Coloquio</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/empredimiento.jpeg" target="_blank"><img src="assets/img/empredimiento.jpeg"
+                    alt="empredimiento"></a>
+            <div class="centrado">Feria de empredimiento</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/Invstigacion.jpeg" target="_blank"><img src="assets/img/Invstigacion.jpeg"
+                    alt="Investigacion"></a>
+            <div class="centrado">Semana de Investigación</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/concurso_pro.jpeg" target="_blank"><img src="assets/img/concurso_pro.jpeg"
+                    alt="Concurso de Programacion"></a>
+            <div class="centrado">Concurso de Programación</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/programacion web.jpeg" target="_blank"><img src="assets/img/programacion web.jpeg"
+                    alt="Concurso de Programacion web"></a>
+            <div class="centrado">Concurso de Programación Web</div>
+        </div>
+    </section>
+    <hr>
+    <h3 class="centrado">Trabajos y Proyectos</h3>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/clase.jpeg" target="_blank"><img src="assets/img/clase.jpeg" alt="flutter"></a>
+            <div class="centrado">Programación en Flutter</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/design.jpeg" target="_blank"><img src="assets/img/design.jpeg"
+                    alt="Diseño de Interfaz"></a>
+            <div class="centrado">Diseño de Interfaz</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/toppologia.jpeg" target="_blank"><img src="assets/img/toppologia.jpeg"
+                    alt="toppologia"></a>
+            <div class="centrado">Topología en Redes</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/desarrollar.png" target="_blank"><img src="assets/img/desarrollar.png"
+                    alt="App Flutter"></a>
+            <div class="centrado">App en Flutter</div>
+        </div>
+    </section>
+    <hr>
+    <h3 class="centrado">Videos</h3>
+    <section class="centrado">
+        <div class="gallery">
+            <video width="440"
+                    src="assets/videos/Analisis y Monitoreo.mp4" controls></video>
+            <div class="centrado">Analisis y Monitoreo</div>
+        </div>
+        <div class="gallery">
+            <video width="440" src="assets/videos/IA_nodos.mp4" controls></video>
+            <div class="centrado">Uso de Python en ESP32 Cam</div>
+        </div>
+        <div class="gallery">
+            <video width="340" height="300" src="assets/videos/semaforo.mp4" controls muted></video>
+            <div class="centrado">semaforo con arduino</div>
+        </div>
+    </section>
+    <hr>
+    <h3 class="centrado">Videos de mi canal de YouTube</h3>
+    <section class="gallery">
+        <div class="gallery">
+            <a class="centrado" href=""><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/ZU848vNJGGY?si=hstNe-HfZniEU7n5" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </a>
+            <div class="centrado">Uso de JSON y FLIP_CARD en Flutter</div>
+        </div>
+        <div class="gallery">
+            <a class="centrado" href=""><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/n__zkWcrelQ?si=Byn0BwNf3V9lvzVu" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </a>
+            <div class="centrado">DELETE en SQL SERVERr</div>
+        </div>
+    </section>
+    <br>
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
